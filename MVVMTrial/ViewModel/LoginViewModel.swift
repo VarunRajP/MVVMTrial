@@ -8,5 +8,5 @@
 import Foundation
 
 struct LoginViewModel {
-    var name: String = ""
+    var name = Dynamic(value: "")
 }

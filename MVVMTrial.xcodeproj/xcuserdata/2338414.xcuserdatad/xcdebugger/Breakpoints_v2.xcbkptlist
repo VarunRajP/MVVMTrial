@@ -14,8 +14,8 @@
             filePath = "MVVMTrial/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "MVVMTrial/CustomViews/BindingTextField.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "commonInit()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "MVVMTrial/CustomViews/BindingTextField.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "bind(callback:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,40 +62,10 @@
             filePath = "MVVMTrial/CustomViews/BindingTextField.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "textFieldDidChange(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4FE3F79A-94DF-46FF-9C58-C31D2B640A62 - 6f86d2f689f0f45d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MVVMTrial.BindingTextField.textFieldDidChange(__C.UITextField) -&gt; ()"
-                  moduleName = "MVVMTrial"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2338414/Desktop/Work/MVVMTrial/MVVMTrial/CustomViews/BindingTextField.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34">
-               </Location>
-               <Location
-                  uuid = "4FE3F79A-94DF-46FF-9C58-C31D2B640A62 - 6f86d2f689f0f45d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MVVMTrial.BindingTextField.textFieldDidChange(__C.UITextField) -&gt; ()"
-                  moduleName = "MVVMTrial"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2338414/Desktop/Work/MVVMTrial/MVVMTrial/CustomViews/BindingTextField.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
