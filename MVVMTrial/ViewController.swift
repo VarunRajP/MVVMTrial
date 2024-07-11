@@ -16,17 +16,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        vm.name.bind { [weak self] text in
+            self?.nameTF.text = text
+        }
+        
         nameTF.bind { [weak self] text in
             print(text)
-            self?.vm.name = text
+            self?.vm.name.value = text
         }
     }
 
     @IBAction func save() {
-        
+        print(vm.name.value)
     }
 
     @IBAction func fetch() {
-        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [weak self] in
+            self?.vm.name.value = "Varun"
+        }
     }
 }
+

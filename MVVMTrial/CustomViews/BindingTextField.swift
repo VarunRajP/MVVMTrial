@@ -8,6 +8,26 @@
 import Foundation
 import UIKit
 
+class Dynamic<T> {
+    
+    typealias Listener = (T) -> Void
+    var listener: Listener?
+    
+    var value: T {
+        didSet {
+            listener?(value)
+        }
+    }
+    
+    init(value: T) {
+        self.value = value
+    }
+    
+    func bind(callback: @escaping (T) -> Void) {
+        listener = callback
+    }
+}
+
 class BindingTextField: UITextField {
     
     var textChanged: (String) -> Void = { _ in }
@@ -32,6 +52,7 @@ class BindingTextField: UITextField {
     
     @objc private func textFieldDidChange(_ textField: UITextField) {
         if let text = textField.text {
+            print(text)
             textChanged(text)
         }
     }
