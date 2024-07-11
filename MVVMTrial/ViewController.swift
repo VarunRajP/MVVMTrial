@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         nameTF.bind { [weak self] text in
+            print(text)
             self?.vm.name = text
         }
     }

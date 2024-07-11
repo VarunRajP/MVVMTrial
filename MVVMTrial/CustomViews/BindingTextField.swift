@@ -23,7 +23,7 @@ class BindingTextField: UITextField {
     }
     
     func commonInit() {
-        addTarget(self, action: #selector(textFieldDidChange), for: .touchUpInside)
+        addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
     }
     
     func bind(callback: @escaping (String) -> Void) {
