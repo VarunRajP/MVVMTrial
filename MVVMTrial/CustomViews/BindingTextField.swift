@@ -32,6 +32,7 @@ class BindingTextField: UITextField {
     
     @objc private func textFieldDidChange(_ textField: UITextField) {
         if let text = textField.text {
+            print(text)
             textChanged(text)
         }
     }
