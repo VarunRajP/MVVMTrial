@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameTF: BindingTextField!
+    
+    private var vm = LoginViewModel()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        nameTF.bind { [weak self] text in
+            self?.vm.name = text
+        }
     }
 
+    @IBAction func save() {
+        
+    }
 
+    @IBAction func fetch() {
+        
+    }
 }
-
